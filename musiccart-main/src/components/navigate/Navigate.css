@@ -1,0 +1,26 @@
+.bottom-navigation{
+ 
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 9vh;
+    width: 100%;
+  background-color: white;
+  /* font-size: 2rem; */
+  color: #2E0052;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
+  
+  }
+  .bottom-navigation a{
+    font-size: 2rem;
+  }
+  .bottom-navigation a.active{
+    border-top: 5px solid #2E0052;
+  }
+  
+.bottom-navigation p{
+    font-size:smaller;
+}

@@ -1,0 +1,37 @@
+.mobile-header{
+    
+    background-color: #2E0052;
+    height: 10vh;
+   color: #666666;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+.search-item{
+    background-color: white;
+    height: 70%;
+    width: 80%;
+    border-radius: 3px;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* padding-left: 2vw; */
+   
+
+}
+
+.mobile-search-bar{
+    background-color: white;
+
+    border: none;
+    width: 80%;
+    padding: 2vh 0;
+
+}
+::placeholder {
+    font-size: 3vh; /* Adjust the font size as needed */
+   
+  }
